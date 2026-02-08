@@ -1,8 +1,8 @@
 # HireMirror AI: AI That Builds Your Perfect Job Path
 
-![HireMirror AI Thumbnail](link-to-thumbnail-image)
+<img width="1536" height="1024" alt="Designer (35)" src="https://github.com/user-attachments/assets/0030e378-cad9-4994-97ad-d5361ec17640" />
 
-**Tagline:** AI That Builds Your Perfect Job Path  
+HireMirror AI is an all-in-one AI-powered career readiness platform that analyzes resumes, portfolios, and skills, conducts adaptive video mock interviews, evaluates technical and soft skills, provides personalized feedback and improvement plans, and tracks progress—empowering candidates to confidently land their dream jobs.
 
 ---
 
