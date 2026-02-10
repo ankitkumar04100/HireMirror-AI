@@ -1,0 +1,54 @@
+HireMirrorAI/
+├── .gitignore
+├── .env.example
+├── README.md
+├── LICENSE          # MIT License
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+├── docker-compose.yml
+├── requirements.txt
+├── package.json
+├── frontend/                 # Frontend (React + Next.js)
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── next.config.js
+│   ├── pages/
+│   │   ├── index.js          # Dashboard homepage
+│   │   ├── mock-interview.js # Adaptive AI mock interviews
+│   │   ├── feedback.js       # Multi-layered feedback page
+│   │   └── profile.js        # User profile & progress dashboard
+│   ├── components/           # Reusable UI components
+│   │   ├── ScoreCard.js
+│   │   ├── Badge.js
+│   │   ├── Leaderboard.js
+│   │   ├── ProgressChart.js
+│   │   └── VideoRecorder.js
+│   └── styles/
+├── backend/                  # Backend (FastAPI + Node.js)
+│   ├── main.py
+│   ├── routes/
+│   │   ├── auth.py
+│   │   ├── resume.py
+│   │   ├── interview.py
+│   │   ├── feedback.py
+│   │   └── dashboard.py
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── interview.py
+│   │   └── feedback.py
+│   ├── services/
+│   │   ├── gpt4_questions.py
+│   │   ├── whisper_transcribe.py
+│   │   └── video_analysis.py
+│   └── utils/
+│       └── helpers.py
+├── database/
+│   ├── migrations/           # Alembic migrations or SQL scripts
+│   │   └── 001_create_tables.sql
+│   └── seed_data.sql         # Demo initial data
+└── screenshots/              # Images for README and demo
+    ├── dashboard.png
+    ├── mock_interview.png
+    ├── feedback.png
+    └── gamification.png
