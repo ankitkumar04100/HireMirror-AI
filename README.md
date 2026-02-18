@@ -31,10 +31,9 @@ HireMirror AI is an all-in-one AI-powered career readiness platform that analyze
 21. [What We Learned](#what-we-learned)  
 22. [Future Roadmap](#future-roadmap)  
 23. [Deployment & Hosting](#deployment--hosting)  
-24. [Demo & Screenshots](#demo--screenshots)
-25. [Installation & Setup](#installation--setup)     
-26. [References & Resources](#references--resources)  
-27. [License & Contact](#license--contact)  
+24. [Demo & Screenshots](#demo--screenshots) 
+25. [References & Resources](#references--resources)  
+26. [License & Contact](#license--contact)  
 
 ---
 
@@ -948,87 +947,6 @@ HireMirror AI is deployed using a **robust, scalable, and secure architecture** 
 
 ### Demo Video
 - [Watch the 3-minute demo](https://youtu.be/demo_video_link) showing full platform functionality.
-
----
-
-## Installation & Setup
-
-Follow these steps to get HireMirror AI up and running locally.
-
-### Prerequisites
-- **Python 3.10+**  
-- **Node.js 18+** and **npm 8+**  
-- **PostgreSQL 13+**  
-- Optional: **Docker** for containerized deployment
-
-### Clone Repository
-```bash
-git clone https://github.com/username/HireMirrorAI.git
-cd HireMirrorAI
-```
-### Backend Setup
-
-1. Create a virtual environment:
-
-```
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-```
-
-2. Install dependencies:
-   
-```
-pip install -r requirements.txt
-```
-
-3. Setup environment variables (.env):
-
-```
-OPENAI_API_KEY=your_openai_key
-FIREBASE_CONFIG=your_firebase_config
-DATABASE_URL=postgresql://username:password@localhost:5432/hiremira_db
-```
-
-4. Run database migrations:
-
-```
-# Example using Alembic
-alembic upgrade head
-```
-
-### Frontend Setup
-
-```
-cd frontend
-npm install
-```
-
-### Start Servers
-
-#### Backend:
-
-```
-cd ..
-uvicorn backend.main:app --reload
-```
-
-#### Frontend:
-
-```
-cd frontend
-npm run dev
-```
-
-### Optional: Run Tests
-
-```
-# Backend unit & integration tests
-pytest backend/tests
-
-# Frontend UI tests
-npm run test
-```
 
 ---
 
